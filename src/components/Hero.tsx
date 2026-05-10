@@ -189,8 +189,8 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.65 }}
             className="text-sm md:text-base text-muted-light max-w-2xl mx-auto mb-4"
           >
-            I own architecture, clean code, and production reliability, not
-            just AI output.
+            I own architecture, clean code, and production reliability, not just
+            AI output.
           </motion.p>
 
           {/* Location */}
@@ -278,7 +278,6 @@ export default function Hero() {
             </motion.a>
           </motion.div>
         </div>
-
       </div>
     </section>
   );

@@ -68,11 +68,11 @@ export default function Footer() {
               <Mail className="w-5 h-5" />
             </motion.a>
 
-            <div className="w-px h-6 bg-card-border mx-2" />
+            <div className="hidden sm:block w-px h-6 bg-card-border mx-2" />
 
             <motion.button
               onClick={scrollToTop}
-              className="p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-all"
+              className="hidden sm:block p-2 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-all"
               whileHover={{ scale: 1.1, y: -2 }}
               whileTap={{ scale: 0.95 }}
               aria-label="Back to top"
