@@ -57,15 +57,10 @@ export default function Contact() {
     setIsSubmitting(true);
 
     try {
-      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+      const serviceId = "service_wcylhjr";
+      const templateId = "template_kjgrmel";
+      const publicKey = "4JhZWlOc-bFZkJcU0";
 
-      if (!serviceId || !templateId || !publicKey) {
-        throw new Error(
-          "Email service is not configured. Please add EmailJS environment variables.",
-        );
-      }
 
       await emailjs.send(
         serviceId,
